@@ -23,6 +23,8 @@ gem 'simple_command'
 # gem "solid_cable"
 gem 'sidekiq', '~> 7.1', '>= 7.1.2'
 gem 'redis', '~> 5.2'
+gem 'carrierwave'
+gem 'carrierwave-base64'
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
